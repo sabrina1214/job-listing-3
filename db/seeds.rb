@@ -9,7 +9,7 @@
 puts 'Hello World'
 puts '这个种子档会自动建立一个账号,并且随机创建10个jobs,10个隐藏的jobs'
 
-create_account = User.create([email: 'admin@gmail.com', password: '1111', password_confirmation: '111111', is_admin: 'true'])
+create_account = User.create([email: 'admin@gmail.com', password: '111111', password_confirmation: '111111', is_admin: 'true'])
 puts 'Admin account is created successfully!'
 
 job_info = [
