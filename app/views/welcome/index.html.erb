@@ -1,39 +1,62 @@
-<div class="jumbotron">
-  <h1 class="title">未来空间</h1>
-
-  <p class="slogan">未来空间提供建筑行业的超高薪工作。
-  <br>
-  凭借你的创意与努力，终将赢得高薪与人生价值。
-  </p>
-  <p class="lead"><a class="btn btn-lg btn-danger" href="/jobs">马上应征</a></p>
+<div class="col-md-12">
+  <div class="row box">
+    <div class="box-inner col-md-6 col-md-offset-3">
+    <h1 class="title">未来空间招聘网</h1>
+    <p class="slogan">提供建筑人才超高薪工作
+    <br>
+    你值得拥有
+   </p>
+   <p class="lead">
+     <%= link_to '马上应征', jobs_path, class: 'btn btn-danger' %>
+   </p>
+  </div>
+ </div>
 </div>
-<section id="company">
-  <div class = "container-fluid">
+
+<div class="content-section-a">
+  <div class="container">
     <div class="row">
-      <div class="col-sm-4 ">
-        <div class="thumbnail">
-          <img src="https://ww2.sinaimg.cn/large/006tNbRwgy1feuovs45moj308206mq7j.jpg" alt="search" class = "img-thumbnail">
-          <div class="caption">
-            <h3>垂直森林住宅</h3>
-          </div>
-        </div>
+      <div class="col-lg-5 col-sm-6">
+        <hr class="section-heading-spacer">
+        <div class="clearfix"></div>
+        <h2 class="section-heading">如何1个小时内写出好的简历</h2>
+        <p class="lead"></p>
       </div>
-      <div class="col-sm-4 ">
-        <div class="thumbnail">
-          <img src="https://ww3.sinaimg.cn/large/006tNbRwgy1feupgf280ij308a070jvf.jpg" alt="bid" class = "img-thumbnail">
-          <div class="caption">
-            <h3>人与自然共生</h3>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-4 ">
-        <div class="thumbnail">
-          <img src="https://ww4.sinaimg.cn/large/006tNbRwgy1feupjrmyyuj3087078jvl.jpg" alt="heart" class = "img-thumbnail">
-          <div class="caption">
-            <h3>空中停车场</h3>
-          </div>
-        </div>
+      <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+        <%= image_tag 'pic-1.png', class: 'img-responsive' %>
       </div>
     </div>
   </div>
-</section>
+</div>
+
+<div class="content-section-b">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+        <hr class="section-heading-spacer">
+        <div class="clearfix"></div>
+        <h2 class="section-heading">五大面试技巧，让你一步get新仪建筑公司的offer</h2>
+        <p class="lead"> <a target="_blank" href=""></a></p>
+      </div>
+      <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+        <%= image_tag 'pic-2.jpg', class: 'img-responsive' %>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="content-section-a">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-5 col-sm-6">
+        <hr class="section-heading-spacer">
+        <div class="clearfix"></div>
+        <h2 class="section-heading">高薪热门职位<br>带你走向成功</h2>
+        <p class="lead"><a target="_blank" href="／"></a></p>
+      </div>
+      <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+        <%= image_tag 'pic-3.jpg', class: 'img-responsive' %>
+      </div>
+    </div>
+  </div>
+</div>
