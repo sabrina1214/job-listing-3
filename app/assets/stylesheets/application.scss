@@ -23,9 +23,9 @@
  //---------Navbar---------
 
  .navbar-default {
-     background-color: #212121;
-     border-color: #212121;
-     margin-bottom: 0;
+     background-color: #B0BEC5; //背景颜色
+     border-color: #B0BEC5; //边框色
+      //底部margin不撑开距离
      border-radius: 0;
  }
 
@@ -192,6 +192,7 @@
      background-repeat: no-repeat;
      background-size: cover;
      margin-bottom: 50px;
+     margin-top: -20px;
 
      .box-inner {
          background-color: rgba(250, 250, 250, 0);
@@ -279,5 +280,15 @@ View
 
  footer .footer-below {
      padding: 25px 0;
-     background-color: #233140;
+     background-color: #B0BEC5;
  }
+
+ html { height: 100%;}
+   body { min-height: 100%; display: flex; flex-direction: column;}
+   .content { flex: 1;}
+
+//---Commmon----
+.col-centered{
+  float: none;
+  margin: 0 auto;
+}

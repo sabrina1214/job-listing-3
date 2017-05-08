@@ -70,7 +70,7 @@ class JobsController < ApplicationController
   end
 
   def search_criteria(query_string)
-    { :title_cont => query_string } #搜索匹配title，可以加其他关键词匹配
+    { :title_cont => query_string }
   end
 
   private
